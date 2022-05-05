@@ -1,3 +1,4 @@
+//Multiples of 3 or 5
 function solution(number){
     const arr = []
     for (let i = 0; i < number; i++) {

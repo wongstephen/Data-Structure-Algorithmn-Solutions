@@ -1,4 +1,5 @@
 //Sentence Smash
+ls
 function smash (words) {
 
     return words.join(" ")
