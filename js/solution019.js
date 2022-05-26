@@ -45,22 +45,23 @@ alphabetPosition("The sunset sets at twelve o' clock.")
 
 //refractored
 
-const alphabetPosition = (text) => {
-    let output = [];
-    //get array of alphabet letters
-    let alphebetObj = {};
-    for (i=65; i <= 90; i++) {
-        alphebetObj[String.fromCharCode(i).toLowerCase()] = i-64   
-    }
-    //look through string, if letter matches key in object then push key-value to output arr.
-    text.toLowerCase().split('').forEach(strLetter => {
-        Object.entries(alphebetObj).forEach((key,value)=> {
-            if(strLetter === key[0]) {
-                output.push(key[1])
-            }
-        })
-    });
-    console.log(output);
-    return output;
-    }
+    const alphabetPosition = (text) => {
+        let output = [];
+        //get array of alphabet letters
+        let alphebetObj = {};
+        for (i=65; i <= 90; i++) {
+            alphebetObj[String.fromCharCode(i).toLowerCase()] = i-64   
+        }
+        //look through string, if letter matches key in object then push key-value to output arr.
+        text.toLowerCase().split('').forEach(strLetter => {
+            Object.entries(alphebetObj).forEach((key,value)=> {
+                if(strLetter === key[0]) {
+                    output.push(key[1])
+                }
+            })
+        });
+        console.log(output);
+        return output;
+        }
+        
 alphabetPosition("The sunset sets at twelve o' clock.")
