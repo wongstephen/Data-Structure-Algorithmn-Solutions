@@ -1,4 +1,4 @@
-/* 
+g/* 
 THE INSTRUCTIONS ARE BAD, I ONLY NEEDED TO RETURN 2. I THOUGHT I HAD TO RETURN THE WHOLE SENTANCE. I'M GOING TO SAY THIS IS CORRECT BUT WILL WORK ON THE NEXT SOLUTION TO ANSWER THIS.
 
 Winter is coming, you must prepare your ski holidays. The objective of this kata is to determine the number of pair of gloves you can constitute from the gloves you have in your drawer.
