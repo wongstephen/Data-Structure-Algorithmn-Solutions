@@ -13,3 +13,5 @@ def max_profit(prices):
             l = r
         r = r + 1
     return max
+
+max_profit([10, 7, 5, 8, 11, 9])

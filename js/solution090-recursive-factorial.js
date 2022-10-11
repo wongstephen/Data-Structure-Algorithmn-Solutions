@@ -4,3 +4,4 @@ function factorial(i) {
   }
   return factorial(i - 1) * i;
 }
+factorial(10)
