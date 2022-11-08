@@ -7,6 +7,11 @@ function removeSmallest(numbers) {
     }
   }
   const indexToRemove = numbers.indexOf(min);
-  numbers.splice(indexToRemove, 1);
-  return numbers;
+  let output = [];
+  for (let i = 0; i < numbers.length; i++) {
+    if (i !== indexToRemove) {
+      output.push(numbers[i]);
+    }
+  }
+  return output;
 }
